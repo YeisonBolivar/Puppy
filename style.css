@@ -158,3 +158,18 @@ footer{
     font-weight: bold;
     background: linear-gradient(15deg, #ffde59be 60%, #ff00ffb0);
 }
+
+
+.content-eslogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-eslogan p{
+    font-size: 60px;
+}
+
+.content-tarjetaDePresentacion img{
+    width: 600px;
+}
