@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+header nav{
+    background-image: url(img/banner.png);
+    background-size: contain;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 125px;
+    top: 0;
+    left: 0;
+    padding: 28px 20px;
+    align-items: center;
+    transition: all .50s ease;
+}
+
+
+.logo{
+    background-color: rgba(245, 245, 220, 0.63);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    cursor: pointer;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    transition: all .50s ease;
+}
+
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    background-color:rgb(245, 245, 220);
+    color: #ff00ff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 5px 25px;
+    margin: 0px 30px;
+    transition: all .50s ease;
+    border-radius: 30px;
+}
+
+.navbar a:hover{
+    background-color: #ffde59;
+    color: black;
+    transition: all .50s ease;
+}
+
+
+.content-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-logo p{
+    width: 50%;
+}
+
+
+.content-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-banner img{
+    width: 100%;
+}
+
+.content-banner p{
+    width: 50%;
+}
+
+
+.slider-box{
+    width: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider-box ul{
+    display: flex;
+    padding: 0;
+    width: 800%;
+    animation: slide 30s infinite alternate ease-in-out;
+}
+
+.slider-box li{
+    width: 300px;
+    list-style: none;
+    position: relative;
+}
+
+.slider-box img{
+    width: 300px;
+}
+
+@keyframes slide {
+    0% {margin-left: 0;}
+    6.25% {margin-left: 0;}
+
+    12.5% {margin-left: -100%;}
+    18.75% {margin-left: -100%;}
+
+    25% {margin-left: -200%;}
+    31.25% {margin-left: -200%;}
+    
+    37.5% {margin-left: -300%;}
+    43.75% {margin-left: -300%;}
+    
+    50% {margin-left: -400%;}
+    56.25% {margin-left: -400%;}
+
+    62.5% {margin-left: -500%;}
+    68.75% {margin-left: -500%;}
+    
+    75% {margin-left: -600%;}
+    81.25% {margin-left: -600%;}
+    
+    87.5% {margin-left: -700%;}
+    100% {margin-left: -700%;}
+
+
+}
+
+.fondo-amarillo{
+    background-color: #ffde59;
+}
+
+.fondo-fucsia{
+    background-color: #ff00ff;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    font-weight: bold;
+    background: linear-gradient(15deg, #ffde59be 60%, #ff00ffb0);
+}
