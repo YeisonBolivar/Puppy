@@ -92,20 +92,21 @@ header nav{
 
 
 .slider-box{
-    width: 300px;
+    width: 600px;
     margin: 0 auto;
     overflow: hidden;
+    border-radius: 20px;
 }
 
 .slider-box ul{
     display: flex;
     padding: 0;
-    width: 800%;
-    animation: slide 30s infinite alternate ease-in-out;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
 }
 
 .slider-box li{
-    width: 300px;
+    width: 50%;
     list-style: none;
     position: relative;
 }
@@ -116,29 +117,17 @@ header nav{
 
 @keyframes slide {
     0% {margin-left: 0;}
-    6.25% {margin-left: 0;}
-
-    12.5% {margin-left: -100%;}
-    18.75% {margin-left: -100%;}
-
-    25% {margin-left: -200%;}
-    31.25% {margin-left: -200%;}
+    20%{margin-left: 0;}   
     
-    37.5% {margin-left: -300%;}
-    43.75% {margin-left: -300%;}
-    
-    50% {margin-left: -400%;}
-    56.25% {margin-left: -400%;}
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
 
-    62.5% {margin-left: -500%;}
-    68.75% {margin-left: -500%;}
-    
-    75% {margin-left: -600%;}
-    81.25% {margin-left: -600%;}
-    
-    87.5% {margin-left: -700%;}
-    100% {margin-left: -700%;}
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
 
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+    
 
 }
 
