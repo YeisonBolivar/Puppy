@@ -181,7 +181,7 @@
     }
 
     .content-eslogan p{
-        width: 60%;
+        width: 70%;
     }
     
     .content-eslogan h2{
@@ -218,7 +218,9 @@
 
 
 @media(width <= 900px){
-    
+    *{  
+        margin-top: 5px;
+    }
     h2{
         text-align: center;
     }
@@ -241,10 +243,12 @@
     }
 
     .navbar li{
+        margin: 0;
         width: 100%;
     }
 
     .navbar a{
+        margin: 0;
         display: flex;
         margin-top: 5px;
         background-color: rgba(245, 245, 220, 0.63);
@@ -263,7 +267,7 @@
     .slider-box ul{
         display: flex;
         padding: 0;
-        width: 200%;
+        width: 800%;
         animation: slide 25s infinite;
     }    
     
@@ -279,18 +283,30 @@
     
     @keyframes slide {
         0% {margin-left: 0;}
-        20%{margin-left: 0;}   
+        10%{margin-left: 0;}   
         
-        25%{margin-left: -100%;}
-        45%{margin-left: -100%;}
+        12%{margin-left: -100%;}
+        22%{margin-left: -100%;}
     
-        50%{margin-left: -200%;}
-        70%{margin-left: -200%;}
+        24%{margin-left: -200%;}
+        34%{margin-left: -200%;}
     
-        75%{margin-left: -300%;}
-        95%{margin-left: -300%;}
+        36%{margin-left: -300%;}
+        46%{margin-left: -300%;}
     
-        100%{margin-left: -400%;}
+        48% {margin-left: -400%;}
+        58%{margin-left: -400%;}   
+        
+        60%{margin-left: -500%;}
+        70%{margin-left: -500%;}
+    
+        72%{margin-left: -600%;}
+        82%{margin-left: -600%;}
+    
+        84%{margin-left: -700%;}
+        94%{margin-left: -700%;}
+    
+        100%{margin-left: -800%;}
     }
     .fondo-amarillo{
         background-color: #ffde59;
