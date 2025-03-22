@@ -9,7 +9,6 @@
     font-family: "Poppins", sans-serif;
     text-decoration: none;
     list-style: none;
-    text-align: center;
 } 
 
 @media (width > 900px){
@@ -177,17 +176,25 @@
         align-items: center;
     }
     
+    .eslogan{
+        text-align: center;
+    }
+
+    .content-eslogan p{
+        width: 60%;
+    }
     
     .content-eslogan h2{
         margin-bottom: 40px;
     }
+
     
-    .content-eslogan p{
-        /* font-family: "Chewy", system-ui; */
+    .eslogan{
         font-family: "Agbalumo", system-ui;
         font-size: 60px;
     }
-    
+
+
     
     
     .content-tarjetaDePresentacion{
@@ -211,6 +218,11 @@
 
 
 @media(width <= 900px){
+    
+    h2{
+        text-align: center;
+    }
+
     header nav{
         display: flex;
         flex-direction: column;
@@ -308,10 +320,14 @@
     .content-eslogan{
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
 
     .content-eslogan p{
+        align-items:baseline;
+    }
+
+    .eslogan{
+        text-align: center;
         font-family: "Agbalumo", system-ui;
         font-size: 20px;
     }
